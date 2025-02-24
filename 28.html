@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website-MDINAYATH</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/2b64b93a11.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+        <h1 class="logo" style="color:#ff004f;">INAYATH</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li> 
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>     
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header_text">
+        <P>UI/UX Designer</P>
+        <h1> Hi,I'm <span>INAYATH</span><br> From India</h1>
+    </div>
+    </div>
+   </div> 
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1_processed.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A motivated and detail-oriented Mechanical Engineer with a strong
+                    analytical background, currently transitioning into frontend development.
+                    Proficient in HTML, CSS, and JavaScript, with hands-on experience in
+                    building responsive, user-friendly websites. Eager to apply
+                    problem-solving and technical skills from engineering to web
+                    development. Passionate about learning new technologies and
+                    frameworks, including React, to enhance user experiences</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                    <li><span>UI/UX</span><br>Desiging Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                    <li><span>Autocad</span><br>Creating 2Dimensional Desiging</li>
+                        </ul>
+                    </div>
+
+            
+                    <div class="tab-contents" id="education">
+                        <ul>
+                    <li><span>2024</span><br>Btech-Mechanical From R.V.R & J.C </li>
+                    
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                    <li><span>2022</span><br>Internship at hyndai kusalva.</li>
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Welcome to my web design portfolio, where creativity meets functionality. With a focus on crafting unique, user-centered designs, I specialize in building websites that are visually appealing, easy to navigate, and optimized for seamless user experiences. Whether you're looking for a sleek and modern look or a more traditional, content-focused design, I create tailored solutions to meet your specific goals.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                I specialize in designing user interfaces (UI) and user experiences (UX) that blend aesthetic appeal with functional excellence. By combining research, design thinking, and testing, I create digital solutions that not only look good but work effortlessly for your audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>APP Design</h2>
+                <p>My Role: Clearly define your role in the project. Did you design the entire app, create wireframes, work on the UI/UX, or focus on a specific aspect of the design? If applicable, mention the collaboration with developers or other team members.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">MY Work</h1>
+    <div class="work-list">
+        <div class="work">
+        <img src="191.jpg" >
+        <div class="layer">
+            <h3>Social Media APP</h3>
+            <P> The app connects you to the talented people around the world.Download it from play store.</P>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="iPhone13ProFront.png" >
+        <div class="layer">
+            <h3>Music APP</h3>
+            <P> The app connects you to the talented people around the world.Download it from play store.</P>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+
+    <div class="work">
+        <img src="axz.jpeg" >
+        <div class="layer">
+            <h3>Online Shopping APP</h3>
+            <P> The app connects you to the talented people around the world.Download it from play store.</P>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> inayathmd283@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> +91(7382417553)</p>
+                <div class="social-icons">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Inayat Resume New.docx (1) (1).pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+        
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required >
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright MDINAYATH.<i class="fa-solid fa-heart"></i> Made by INAYATH </p>
+    </div>
+</div>
+
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }   
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add(active-tab);
+    }
+    
+   </script>
+   <script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script> 
+   
+   
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsBRA53Zmg2A_CoT6l54HVTKMchR0hXRo3GicXdZIByZolssJXqI47kz4Ez11F5tsnaA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
